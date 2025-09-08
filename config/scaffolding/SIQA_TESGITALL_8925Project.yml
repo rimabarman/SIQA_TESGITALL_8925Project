@@ -96,6 +96,28 @@ services:
     wpmRegistry: licensed
   - name: SIQA_OriginTest_OnPremAssets
     version: "1.0"
+- serviceName: project.siqa_tesgitall_8925.integrations:AlertsCRTandERT
+  packages:
+  - name: SIQA_TESGITALL_8925Project
+    version: "1.0"
+  - name: TPP_services_in_FCS
+    version: "1.0"
+  - name: JMS2waySSL
+    version: "1.0"
+  - name: SSL_JDBC_Test
+    version: "1.0"
+  - name: JMSTest
+    version: "1.0"
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
+  - name: SIQA_OriginTest_OnPremAssets
+    version: "1.0"
+- serviceName: pub.alert:emit
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2089
 - serviceName: project.siqa_tesgitall_8925.integrations:JMSFlowTest
   packages:
   - name: SIQA_TESGITALL_8925Project
